@@ -1,0 +1,122 @@
+.maindiv{
+    
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    position: fixed;
+    z-index: -1;
+    width: 100vw;
+}
+h1{
+    position: fixed;
+    z-index: 2;
+    top:100px;
+    font-size: 100px;
+    font-family: "Sour Gummy", sans-serif;
+}
+p{
+    position: fixed;
+    z-index: 2;
+    top:90px;
+    font-size: 50px;
+    font-family: "Sour Gummy", sans-serif;
+}
+body{
+    margin:0px;
+}
+.dief{
+    display: grid;
+    grid-template-columns: 100px 100px;
+    gap:20px;
+}
+.die{
+    height: 100px;
+    width:100px;
+    background-color: brown;
+    
+    border-radius: 15px;
+   
+    
+}
+.plr1,.plr2{
+    height: 100px;
+    visibility: hidden;
+}
+
+.die2{
+    position: relative;
+    top:-100px;
+    
+}
+.die3{
+    position: relative;
+    top:-200px;
+    
+}
+.die4{
+    position: relative;
+    top:-300px;
+}
+.die5{
+    position: relative;
+    top:-400px;
+}
+.die6{
+    position: relative;
+    top:-500px;
+}
+.d1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot1,.dot2,.dot3,.dot4,.dot5,.dot6,.dot7,.dot8{
+    background-color: antiquewhite;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+}
+
+.d2>.dot2{
+    position: relative;
+    top:49px;
+    left: 70px;
+    
+}
+.d2>.dot1{
+    position: relative;
+    top:12px;
+    left: 12px;
+}
+.d2>.dot3{
+    position: relative;
+    left: 40px;
+}
+.d2>.dot4{
+    position: relative;
+    top:-28px;
+    left: 70px;
+}
+.d2>.dot5{
+    position: relative;
+    left: 12px;
+    bottom: -9px;
+}
+.d2>.dot6{
+    position: relative;
+    left: 40px;
+    bottom: 40px;
+}
+.d2>.dot7{
+    position: relative;
+    left:12px;
+    top:-39px;
+}
+.d2>.dot8{
+    position: relative;
+    left:70px;
+    top:-59px;
+}
